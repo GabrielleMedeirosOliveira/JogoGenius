@@ -1,0 +1,88 @@
+body {
+    background: #010101e0;
+}
+
+.genius {
+    max-width: 620px;
+    max-height: 620px;
+    margin: 11vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 300px;
+}
+
+.genius__screen {
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border-radius: 360px;
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius--instructions {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.genius__screen h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+.genius__screen p {
+    font-size: 20px;
+}
+
+.genius__screen h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.genius__screen button {
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background-color: #cece00;
+    color: black;
+    border-radius: 5px;
+}
+
+.genius__screen button:hover {
+    background-color: yellow;
+}
+
+.genius__button {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.genius--green {
+    background-color: #006600;
+    border-radius: 360px 0 0 0;
+}
+
+.genius--yellow {
+    background-color: #b3b300b0;
+    border-radius: 0 360px 0 0;
+}
+
+.genius--red {
+    background-color: #c70000c9;
+    border-radius: 0 0 0 360px;
+}
+
+.genius--blue {
+    background-color: #0000c2;
+    border-radius: 0 0 360px 0;
+}
